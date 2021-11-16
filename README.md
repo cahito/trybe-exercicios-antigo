@@ -1,0 +1,1 @@
+Este é o primeiro repositório realizado para a inserção de material de aprendizado no curso de Desenvolvedor Web Full Stack da Trybe (betrybe.com). Durante todo o curso, ele será atualizado com os materiais feitos como exercício durante as aulas síncronas e assíncronas, obedecendo as hierarquias dos blocos e dias de estudo.
