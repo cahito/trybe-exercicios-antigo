@@ -1,0 +1,5 @@
+div:hover {
+    text-align: center;
+    border-color: black;
+    border: 10px;
+}
