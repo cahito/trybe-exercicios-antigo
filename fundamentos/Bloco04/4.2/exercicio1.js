@@ -130,7 +130,11 @@ for (let i = 0; i < result08.length; i += 1) {
 
 console.log(numbers);
 
-let numbersB1 = numbers;
+let numbersB1 = [];
+
+for ( i = 0; i < numbers.length; i += 1){
+    numbersB1.push(numbers[i]);
+}
 
 for (let index = 1; index < numbersB1.length; index += 1) {
     for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
@@ -142,14 +146,15 @@ for (let index = 1; index < numbersB1.length; index += 1) {
     }
   }
 
-console.log(numbers);
 console.log(numbersB1);
 
 // Bonus 2
 
-console.log(numbers);
+let numbersB2 = [];
 
-let numbersB2 = numbers;
+for ( i = 0; i < numbers.length; i += 1){
+    numbersB2.push(numbers[i]);
+}
 
 for (let i = 1; i < numbersB2.length; i += 1) {
     for (let j = 0; j < i; j += 1) {
@@ -161,14 +166,11 @@ for (let i = 1; i < numbersB2.length; i += 1) {
     }
   }
 
-  console.log(numbersB2);
+console.log(numbersB2);
 
 // Bonus 3
 // Resultado esperado: 
 // [45, 27, 57, 1330, 560, 800, 200, 70, 945, 54]
-
-
-console.log(numbers);
 
 let numbersB3 = [];
 
