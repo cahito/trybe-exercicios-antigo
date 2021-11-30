@@ -80,3 +80,15 @@ for (let sum of arrOfNumbers) {
 
 console.log(arrOfNumbers);
 // Resultado: [10, 20, 30]
+
+/* function oddNumbers(){
+  // Desenvolva seu código nessa função
+  let numbers = [];
+  for(let i = 0; i < 50; i+=1){
+      if( i % 2 != 0){
+          numbers.push(i);
+      }
+  }
+  console.log(numbers.join())
+}
+oddNumbers(); */
